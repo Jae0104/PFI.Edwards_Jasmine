@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Kotta+One');
+
+body {
+    background-image: url(../images/gohan.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+.movieTitle {
+    padding: 6px;
+    font-size: 3em;
+    background-color: #459f98;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+}
+
+.synopsisText {
+    font-family: 'Kotta One';
+    padding: 6px;
+    font-size: 25px;
+    text-align: justify;
+}

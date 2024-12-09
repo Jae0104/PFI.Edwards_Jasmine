@@ -1,0 +1,83 @@
+@font-face{
+    font-family: "DBZ";
+    src: url("../fonts/Saiyan-Sans.ttf") format("truetype");
+}
+
+body {
+    background-image: url(../images/DBZ.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+.video{
+    width: 220px;
+    height: 240px;
+}
+
+.image{
+    margin-top: 20px;
+    width: 280px;
+    height: 480px;
+    border-radius: 20px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: top;
+    display: inline-block;
+}
+
+.titre{
+    font-size: 100px;
+    font-family: 'DBZ';
+    letter-spacing: 0.1em;
+    text-align: center;
+    color: #e76a24;
+}
+
+.sections{
+    display: flex;
+    gap: 10px;
+    border: 1px solid #fbbc42;
+    border-radius: 5px;
+}
+
+.smallcolumn{
+    flex: 1;
+    padding: 10px;
+    border-left: 1px solid #fbbc42;
+}
+
+.bigcolumn{
+    flex: 3;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 15px;
+}
+
+.bigcolumntext{
+    text-align: justify;
+    font-size: 20px;
+    line-height: 25px;
+}
+
+.smallcolumntext{
+    text-align: right;
+    font-size: 20px;
+    line-height: 25px;
+}
+
+table{
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+th,td{
+    border: 3px solid #e76a24;
+    padding: 10px;
+    font-size: 20px;
+}
+
+th{
+    background-color: #e76a24;
+    color: white;
+}

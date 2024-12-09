@@ -1,0 +1,100 @@
+@font-face{
+    font-family: "DBZ";
+    src: url("../fonts/Saiyan-Sans.ttf") format("truetype");
+}
+
+
+.title {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    font-size: 2.5em;
+    margin:auto;
+}
+
+.yearTitle {
+    font-size: 3em;
+}
+
+.calendar {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.months {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px;
+}
+
+.month {
+    flex: 1;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+    min-width: 290px;
+    background-color: #1C4595;
+}
+
+.monthTitle {
+    font-family: 'DBZ';
+    letter-spacing: 0.2em;
+    font-size: 1.8em;
+    text-align: center;
+    margin-bottom: 15px;
+    text-transform: capitalize;
+    color: #e7e5e8;
+}
+
+.daysOfWeek {
+    font-family: 'DBZ';
+    letter-spacing: 0.2em;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    padding-left: 15px;
+    margin-bottom: 15px;
+    color: #e7e5e8;
+}
+
+.daysOfWeek div {
+    text-align: right;
+    width: 35px;
+}
+
+.daysContainer {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    padding-left: 15px;
+    margin-bottom: 15px;
+    color: #e7e5e8;
+}
+
+.daysContainer div {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 35px;
+    height: 26px;
+    text-align: right;
+    padding-top: 5px;
+    padding-right: 9px;
+}
+
+.holiday {
+    background-color: #fbbc42;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+@media screen and (max-width:2000px){
+    .month{
+        min-width: 300px;
+    }
+}
+
+@media screen and (max-width:1100px) {
+    .months{
+        display: block;
+    }
+    .month{
+        width: 1000px;
+    }
+
+    
+}
